@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>576</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Detalles </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>50</y>
+      <width>178</width>
+      <height>462</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>font: 14pt &quot;Roboto&quot;;</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="height">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Roboto&quot;;</string>
+       </property>
+       <property name="text">
+        <string>height</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="mass">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Roboto&quot;;</string>
+       </property>
+       <property name="text">
+        <string>mass</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="hair">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Roboto&quot;;</string>
+       </property>
+       <property name="text">
+        <string>hair_color</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="skin">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Roboto&quot;;</string>
+       </property>
+       <property name="text">
+        <string>skin_color</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="eye">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Roboto&quot;;</string>
+       </property>
+       <property name="text">
+        <string>eye_color</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="birth">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Roboto&quot;;</string>
+       </property>
+       <property name="text">
+        <string>birth_year</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="gender">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Roboto&quot;;</string>
+       </property>
+       <property name="text">
+        <string>gender</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>50</y>
+      <width>178</width>
+      <height>462</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="tHeight">
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;Roboto&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>height: </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="tMass">
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;Roboto&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>mass: </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="tHair">
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;Roboto&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>hair_color: </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="tSkin">
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;Roboto&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>skin_color:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="tEye">
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;Roboto&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>eye_color:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="tBirth">
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;Roboto&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>birth_year:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="tGender">
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;Roboto&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>gender:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>576</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
